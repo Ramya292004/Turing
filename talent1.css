@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container {
+   position: relative; 
+   height: 400px;   
+}
+.talent{
+    width:30%;
+    height:500px;
+    border:2px solid rgb(231, 224, 224);
+    border-radius: 15px;
+
+    position: absolute;
+    top: 15%;
+    left:35%;
+}
+.logo img{
+    width:10%;
+    height:50px;
+    margin-top:30px;
+    margin-left: 40px;
+}
+h3{
+    font-family: Poppins;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+}
+.para{
+    text-align: center;
+    color:rgb(114, 113, 113);
+    margin-top: 3px;
+}
+.btn{
+    width:85%;
+    height:40px;
+    background-color: white;
+    border:1px solid rgb(197, 190, 190);
+    margin:20px 30px;
+    display: flex;
+    align-items: center; 
+    border-radius: 5px;
+}
+.google{
+    width:10%;
+    height:25px;
+    margin-left: 6px;
+}
+.para1 {
+    font-size: 15px;
+    color:rgb(14, 13, 13);
+    margin-left:85px;
+}
+p a{
+    text-decoration: none;
+    color:rgb(16, 14, 14);
+}
+.para2{
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+}
+ label{
+    display:block;
+    margin-top:30px;
+    margin-bottom:5px;
+    margin-left: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+} 
+.mail{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-family: Poppins;
+    font-size: 12px;
+}
+input{
+    width:85%;
+    height:35px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    margin-left: 30px;
+}
+.password{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forgot {
+    font-size: 12px;
+    font-family: Poppins;
+    color: blue;
+    cursor: pointer;
+    display:block;
+    margin-top:30px;
+    margin-right: 60px;
+}
+.black{
+    width:85%;
+    height:38px;
+    background-color: black;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    margin:40px 30px;
+    font-family:Poppins;
+}
+.para3{
+    text-align: center;
+    position: relative;
+    bottom:20px;
+    color: grey;
+}
+.footer{
+    margin-top: 180px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    color:grey;
+}
+.footer a{
+    text-decoration: underline;
+}
+.para3 a{
+    text-decoration: underline;
+    font-family:Poppins;
+    margin-left: 5px;
+    font-size: 16px;
+}
