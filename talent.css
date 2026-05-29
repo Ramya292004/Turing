@@ -135,25 +135,115 @@ input{
     font-size: 12px;
 }
 
-@media(max-width:760px){
-    body{
-        width:100%;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .talent{
-        width:60%;
-        margin-right: 60px;
-        
-    }
-    .logo img{
-        display: flex;
-        flex-direction: column;
-        width:20%;
-    }
-    .footer{
-        margin-left: 180px;
-        font-size: 10px;
-    }
+
+@media (max-width: 1024px) {
+
+  .talent {
+    width: 45%;
+    left: 27%;
+    top: 12%;
+    height: auto;
+    min-height: 480px;
+    padding-bottom: 20px;
+  }
+
+  .logo img { width: 14%; height: auto; margin-left: 30px; }
+
+  .container { height: auto; min-height: 500px; padding-bottom: 60px; }
+
+  .footer { margin-top: 80px; }
 }
+
+
+@media (max-width: 768px) {
+
+  .container {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .talent {
+    position: static;
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    min-height: unset;
+    margin: 20px auto 0;
+    padding-bottom: 24px;
+    border-radius: 12px;
+  }
+
+
+  h3 { font-size: 20px; margin-top: 20px; }
+  .para { font-size: 14px; margin-top: 6px; padding: 0 12px; }
+
+  .btn {
+    width: 90%;
+    margin: 16px auto;
+    height: 42px;
+  }
+  .google { width: 22px; height: 22px; margin-left: 8px; }
+  .para1 { font-size: 14px; margin-left: 50px; }
+
+  .para2 { font-size: 12px; padding: 0 10px; word-break: break-all; }
+
+  label { margin-left: 20px; margin-top: 20px; font-size: 12px; }
+
+  input {
+    width: 90%;
+    margin-left: 20px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .password { padding-right: 20px; }
+  .forgot { margin-right: 20px; margin-top: 20px; font-size: 12px; }
+
+  .black {
+    width: 90%;
+    margin: 24px 20px 16px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .para3 { font-size: 13px; bottom: 0; margin-bottom: 10px; }
+
+  .footer {
+    margin-top: 30px;
+    font-size: 12px;
+    padding: 0 16px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .logo img { width: 90px; margin-left: 16px; }
+
+  .talent { width: 95%; border-radius: 10px; }
+
+  h3 { font-size: 18px; }
+  .para { font-size: 13px; }
+
+  .btn { width: 92%; }
+  .para1 { margin-left: 30px; font-size: 13px; }
+
+  input { width: 92%; margin-left: 14px; }
+  label { margin-left: 14px; }
+
+  .black { width: 92%; margin-left: 14px; }
+
+  .forgot { margin-right: 14px; }
+
+  .para2 { font-size: 11px; }
+  .para3 { font-size: 12px; }
+  .footer { font-size: 11px; }
+}
+
